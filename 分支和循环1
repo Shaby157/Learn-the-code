@@ -1,0 +1,10 @@
+int main()
+{
+	int a = 10;
+	int*p = &a;
+	printf("%p\n", &a); 
+	printf("%p\n", p);
+	*p = 20;
+	printf("%d\n", a);
+	return 0;
+}
