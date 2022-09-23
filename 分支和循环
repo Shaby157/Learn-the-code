@@ -20,3 +20,76 @@ int main()
 		printf("老不死\n");
 	return 0;
 }
+
+
+int main()
+{
+	int a = 1;
+	int b = 2;
+	if (a == 0)
+		if (b == 2)
+	printf("haha\n");
+		else
+			printf("hehe\n");
+	return 0;
+}
+
+
+int main()
+{
+	int i = 1;
+	printf("0-100奇数为");
+	while (i <= 100)
+	{
+		if (i % 2 == 1);
+		printf("%d  ", i);
+		i++;
+	}
+	return 0;
+}
+
+
+int main()
+{
+	int a = 8;
+	int num = 0;
+	num = a % 2;
+	printf("num=%d\n", num);
+	if (num == 0)
+		printf("a是偶数");
+	else
+		printf("a是奇数");
+	return 0;
+}
+
+
+int main()
+{
+	int day = 0;
+	scanf("%d", &day);
+	switch (day)
+	{
+	case 1:
+		printf("星期一\n");
+		break;
+	case 2:
+		printf("星期二\n");
+		break;
+	case 3:
+		printf("星期三\n");
+		break;
+	case 4:
+		printf("星期四\n");
+		break;
+	case 5:
+		printf("星期五\n"); 
+		break;
+	case 6:
+		printf("星期六\n");
+		break;
+	case 7:
+		printf("星期天\n");
+		break;
+	}
+	return 0;
+}
