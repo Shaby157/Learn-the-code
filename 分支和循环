@@ -107,3 +107,34 @@ int main()
 }
 
 
+int main()
+{
+	printf("请选择你要的点数\n");
+	int day = 0;
+	scanf("%d", &day);
+	
+	switch (day)
+	{
+			case 1:
+				printf("向前走一步\n");
+				break;
+			case 2:
+				printf("倒退一步\n");
+				break;
+			case 3:
+				printf("向前两步\n");
+				break;
+			case 4:
+				printf("向前三步\n");
+				break;
+			case 5:
+				printf("重新再选一个\n");
+				break;
+			case 6:
+				printf("赢得game\n");
+				break;
+			default:
+				printf("不要太贪心了，重新输入\n");
+	}
+	return 0;
+}
