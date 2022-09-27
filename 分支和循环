@@ -156,3 +156,37 @@ int main()
 
 	return 0;
 }
+
+
+int main()
+{
+	int i, n = 0;
+	int ret = 1;
+	int sum = 0;
+	for (n = 1; n <= 3; n++)
+	{
+		ret = 1;
+		for (i = 1; i <= n; i++)
+		{   //ret1*1 ret1*1*2  ret1*1*2*1*2*3
+			ret = ret * i;
+		}
+		sum = sum + ret;
+	}
+	
+	printf("sum=%d", sum);
+	return 0;
+}
+
+
+int main()
+{
+	int i,n = 0;
+	int ret = 1;
+	scanf("%d", &n);
+	for (i = 1; i <= n; i++)
+	{	//ret1  ret2  ret6
+		ret = ret * i;
+	}
+	printf("ret=%d", ret);
+	return 0;
+}
